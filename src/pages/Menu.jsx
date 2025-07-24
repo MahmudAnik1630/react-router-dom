@@ -29,6 +29,15 @@ function Menu() {
             Contact
           </NavLink>
         </li>
+
+          <li>
+          <NavLink
+            to="/account/Anik/101"
+            className={({ isActive }) => (isActive ? "isactive" : "isinactive")}
+          >
+            Account
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
