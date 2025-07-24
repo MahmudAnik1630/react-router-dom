@@ -1,8 +1,11 @@
 import React from 'react'
+import Menu from './pages/Menu'
 
 function NotFound() {
   return (
-    <div>404-NotFound</div>
+    <div>
+      <Menu/>
+      404-NotFound</div>
   )
 }
 

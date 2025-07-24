@@ -1,8 +1,14 @@
 import React from 'react'
+import Menu from './Menu'
+
+
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <Menu/>
+      About
+      </div>
   )
 }
 
